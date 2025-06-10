@@ -122,10 +122,14 @@ header {
   color: white;
 }
 
-li {
+header li {
   list-style-type: none;
   padding: 0 10px;
 }
+li{
+  list-style: none;
+}
+
 
 .d-grow {
   flex-grow: 1;
@@ -241,6 +245,11 @@ li {
   margin: 0 auto;
   cursor: pointer;
 }
+.secondary-but{
+  background-color: rgb(142, 161, 226);
+  color: white;
+}
+
  
  
 
@@ -249,6 +258,9 @@ footer {
   background-color: rgb(35, 39, 42)
 }
 
+.ul-foot{
+  
+}
 
 div[class*="sec-col"] {
   flex-grow: 1;
@@ -272,10 +284,7 @@ div[class*="sec-col"] {
 
 
 
-/*debug*/
-.debug{
-  height: 500px;
-}
+
 .dash{
   border: 2px dashed white;
 } 
