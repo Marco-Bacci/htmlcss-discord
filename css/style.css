@@ -7,7 +7,7 @@
 /*laoutt classes*/
 body {
   background-color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3em;
 }
 
@@ -20,13 +20,15 @@ body {
 h1 {
   padding: 40px;
   font-size: 2.5em;
+  font-weight: 700;
 }
 
-h2,
-{
-font-size: 2em;
-margin-bottom: 25px;
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
+
 
 h3 {
   font-size: 1.5em;
@@ -41,6 +43,10 @@ h3 {
 
 .d-flex {
   display: flex;
+}
+
+.jc-center {
+  justify-content: center;
 }
 
 .reverse {
@@ -92,33 +98,19 @@ hr {
   border: 1px solid rgb(70, 75, 88);
 }
 
+
+
 /*colors*/
 .bg-blue {
   background-color: rgb(49, 96, 224);
 }
 
-.bg-fuchsia {
-  background-color: fuchsia;
-}
-
 .bg-grey {
-  background-color: rgb(207, 204, 204);
+  background-color: rgb(230, 228, 228);
 }
 
 .bg-lightblue {
   background-color: rgb(118, 137, 208);
-}
-
-.bg-pink {
-  background-color: pink;
-}
-
-.bg-green {
-  background-color: green;
-}
-
-.bg-salmon {
-  background-color: salmon;
 }
 
 /*header*/
@@ -138,14 +130,16 @@ header li {
 li {
   list-style: none;
   padding: 5px 0px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: white;
+  cursor: pointer;
 }
-ul{
-  color:rgb(118, 137, 208);
+
+ul {
+  color: rgb(118, 137, 208);
   font-size: 0.8em;
+  cursor: pointer
 }
-  
 
 
 .d-grow {
@@ -172,11 +166,12 @@ ul{
   line-height: 40px;
   border-radius: 40px;
   color: black;
+  font-size: 0.8em;
 }
 
 /*jumbotron*/
 .jumbotron {
-  width: 55%;
+  width: 70%;
   height: 400px;
   color: white;
   flex-direction: column;
@@ -202,15 +197,20 @@ ul{
 }
 
 
-.left-but.jumbo-but.jumbo-but {
+.jumbo-but {
   background-color: white;
   color: black;
   align-items: center;
 }
 
-.right-but.jumbo-but.jumbo-but {
+.right-but {
   background-color: black;
   color: white
+}
+
+.central-but {
+  background-color: rgb(118, 137, 208);
+  color: white;
 }
 
 .download {
@@ -221,10 +221,6 @@ ul{
 
 /*sections*/
 /*study section*/
-.big-col,
-.small-col {
-  height: 500px;
-}
 
 .small-col {
   padding: 30px;
@@ -259,54 +255,37 @@ ul{
   background-size: 100%;
 }
 
-.secondary-but {
-  width: 200px;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-.secondary-but {
-  background-color: rgb(142, 161, 226);
-  color: white;
-}
-
-
-
-
-
 /*footer*/
 footer {
   background-color: rgb(35, 39, 42)
 }
 
-div[class*="sec-col"] {
-  flex-grow: 1;
-}
 
-.main-col {
+/*icons and main column*/
+.main-col,
+div[class*="sec-col"] {
   flex-grow: 1;
   color: white;
 }
 
-/*icons and main column*/
-.flag{
- width: 30px;
+.flag {
+  width: 30px;
 }
-.main-col > * {
+
+.main-col>* {
   margin-bottom: 20px;
 }
-.main-col >span{
+
+.main-col>span {
   display: inline-block;
-  color:rgb(142, 161, 226);
-  font-size: 1.7em ;
+  color: rgb(142, 161, 226);
+  font-size: 1.7em;
   font-weight: bold;
 }
 
-.icons i:not(:first-child){
-margin: 10px;
+.icons i:not(:first-child) {
+  margin: 10px;
 }
-
-
 
 /*final bar*/
 .bottom-footer {
@@ -314,13 +293,12 @@ margin: 10px;
   align-items: center;
   width: 100%;
   height: 70px;
-  margin-bottom:100px;
+  margin: 30px auto 100px auto;
 }
 
 .registration {
   background-color: rgb(142, 161, 226);
   border-radius: 45px;
-  color: rgb(255, 255, 255);
   padding: 8px 16px;
   cursor: pointer;
 }
