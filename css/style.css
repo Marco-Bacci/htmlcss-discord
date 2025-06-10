@@ -38,7 +38,9 @@ h2{
 .reverse {
   flex-direction: row-reverse;
 }
-
+.centred{
+  text-align: center;
+}
 section {
   height: 600px;
   padding: 50px;
@@ -47,7 +49,9 @@ section {
 .pd-10 {
   padding: 0 10px;
 }
-
+.pdt-50{
+  padding-top: 50px;
+}
 .col-30 {
   width: 30%;
 }
@@ -187,7 +191,7 @@ li {
 
 
 /*sections*/
-/*prima section*/
+/*study section*/
 .big-col,
 .small-col {
   height: 500px;
@@ -206,6 +210,12 @@ li {
   height: 800px;
   width: 100%;
 }
+/*big image to re-size*/
+.chilling-img{
+  width: 974px;
+  height: 630px;
+}
+  
 
 /*footer*/
 footer {
