@@ -21,10 +21,15 @@ h1 {
   padding: 40px;
   font-size: 2.5em;
 }
-h2{
+h2,{
   font-size: 2em;
   margin-bottom: 25px;
 }
+h3{
+  font-size: 1.5em;
+  padding: 40px 40px 0px 40px;
+}
+  
   
 
 
@@ -47,6 +52,10 @@ section {
 
 .pd-10 {
   padding: 0 10px;
+}
+.pd-20{
+  padding: 20px;
+
 }
 .pdt-50{
   padding-top: 50px;
@@ -212,6 +221,18 @@ li {
 /*big image to re-size*/
 .chilling-img{
   width: 100%;
+}
+
+.avventura{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.bg-star{
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
   
 
