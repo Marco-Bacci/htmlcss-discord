@@ -301,7 +301,10 @@ div[class*="sec-col"] {
   font-size: 1.7em ;
   font-weight: bold;
 }
-  
+
+.icons i:not(:first-child){
+margin: 10px;
+}
 
 
 
