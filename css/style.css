@@ -106,7 +106,7 @@ hr {
 }
 
 .bg-lightblue {
-  background-color: #1E90FF;
+  background-color: rgb(118, 137, 208);
 }
 
 .bg-pink {
@@ -137,7 +137,15 @@ header li {
 
 li {
   list-style: none;
+  padding: 5px 0px;
+  font-size: 0.8em;
+  color: white;
 }
+ul{
+  color:rgb(118, 137, 208);
+  font-size: 0.8em;
+}
+  
 
 
 .d-grow {
@@ -274,7 +282,7 @@ footer {
 
 div[class*="sec-col"] {
   flex-grow: 1;
-  color: white;
+
 }
 
 
