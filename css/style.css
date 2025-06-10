@@ -47,9 +47,6 @@ section {
 .pd-10 {
   padding: 0 10px;
 }
-.pd-30 {
-  padding: 30px;
-}
 
 .col-30 {
   width: 30%;
@@ -196,6 +193,9 @@ li {
   height: 500px;
 }
 
+.small-col{
+  padding: 30px;
+}
 .card {
   height: 900px;
   padding: 50px;
