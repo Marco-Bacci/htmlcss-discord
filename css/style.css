@@ -279,16 +279,19 @@ footer {
   background-color: rgb(35, 39, 42)
 }
 
-
 div[class*="sec-col"] {
   flex-grow: 1;
-
 }
-
 
 .main-col {
   flex-grow: 2;
 }
+
+/*icons*/
+.flag{
+ width: 30px;
+}
+
 
 /*final bar*/
 .bottom-footer {
@@ -296,7 +299,7 @@ div[class*="sec-col"] {
   align-items: center;
   width: 100%;
   height: 70px;
-  margin-top: 15px;
+  margin-bottom:100px;
 }
 
 .registration {
