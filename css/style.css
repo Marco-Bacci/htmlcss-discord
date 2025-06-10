@@ -15,6 +15,10 @@ body {
   margin: 0 auto;
   display: flex;
 }
+h1{
+  padding: 50px;
+  font-size: 2.5em;
+}
 
 /*utils*/
 
@@ -58,7 +62,7 @@ hr {
 
 /*colors*/
 .bg-blue {
-  background-color: blue;
+  background-color: rgb(49, 96, 224);
 }
 
 .bg-fuchsia {
@@ -128,6 +132,12 @@ li {
 .jumbotron {
   width: 50%;
   height: 400px;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(./../img/jumbo.png);
+  background-size: cover;
 }
 
 
