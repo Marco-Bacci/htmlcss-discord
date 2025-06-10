@@ -207,13 +207,12 @@ li {
 
 .box {
   margin: 0 auto;
-  height: 800px;
-  width: 100%;
 }
+ 
+  
 /*big image to re-size*/
 .chilling-img{
-  width: 974px;
-  height: 630px;
+  width: 100%;
 }
   
 
@@ -221,6 +220,7 @@ li {
 footer {
   background-color: rgb(35, 39, 42)
 }
+
 
 div[class*="sec-col"] {
   flex-grow: 1;
