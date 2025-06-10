@@ -215,6 +215,7 @@ li {
 .box {
   margin: 0 auto;
   flex-direction: column;
+  padding-bottom:100px ;
 }
  
   
@@ -228,13 +229,20 @@ li {
   margin: 0 auto;
 }
 
+
 .bg-star{
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
-  
+.secondary-but{
+  width: 200px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+ 
+ 
 
 /*footer*/
 footer {
