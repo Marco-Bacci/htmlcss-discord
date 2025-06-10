@@ -42,7 +42,6 @@ h2{
   text-align: center;
 }
 section {
-  height: 600px;
   padding: 50px;
 }
 
@@ -169,9 +168,9 @@ li {
   margin: 10px;
   padding: 15px;
   border-radius: 45px;
-  background-color: yellow;
   cursor: pointer;
 }
+  
 
 .left-but.jumbo-but.jumbo-but {
   background-color: white;
@@ -201,12 +200,12 @@ li {
   padding: 30px;
 }
 .card {
-  height: 900px;
   padding: 50px;
 }
 
 .box {
   margin: 0 auto;
+  flex-direction: column;
 }
  
   
@@ -240,3 +239,14 @@ div[class*="sec-col"] {
   margin-top: 15px;
   background-color: aquamarine;
 }
+
+
+
+
+/*debug*/
+.debug{
+  height: 500px;
+}
+.dash{
+  border: 2px dashed white;
+} 
