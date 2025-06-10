@@ -284,13 +284,25 @@ div[class*="sec-col"] {
 }
 
 .main-col {
-  flex-grow: 2;
+  flex-grow: 1;
+  color: white;
 }
 
-/*icons*/
+/*icons and main column*/
 .flag{
  width: 30px;
 }
+.main-col > * {
+  margin-bottom: 20px;
+}
+.main-col >span{
+  display: inline-block;
+  color:rgb(142, 161, 226);
+  font-size: 1.7em ;
+  font-weight: bold;
+}
+  
+
 
 
 /*final bar*/
