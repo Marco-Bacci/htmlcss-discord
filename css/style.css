@@ -21,6 +21,11 @@ h1 {
   padding: 40px;
   font-size: 2.5em;
 }
+h2{
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+  
 
 
 /*utils*/
@@ -35,16 +40,19 @@ h1 {
 }
 
 section {
-  height: 500px;
+  height: 600px;
   padding: 50px;
 }
 
 .pd-10 {
   padding: 0 10px;
 }
+.pd-30 {
+  padding: 30px;
+}
 
-.col-25 {
-  width: 25%;
+.col-30 {
+  width: 30%;
 }
 
 .col-20 {
@@ -55,8 +63,8 @@ section {
   width: 40%;
 }
 
-.col-60 {
-  width: 60%;
+.col-70 {
+  width: 70%;
 }
 
 .mt-20 {
@@ -180,19 +188,12 @@ li {
   margin-right: 10px;
 }
 
-span {
-  display: inline-block;
-}
-
-
-
-
 
 /*sections*/
 /*prima section*/
 .big-col,
 .small-col {
-  height: 400px;
+  height: 500px;
 }
 
 .card {
@@ -205,7 +206,6 @@ span {
   height: 800px;
   width: 100%;
 }
-
 
 /*footer*/
 footer {
